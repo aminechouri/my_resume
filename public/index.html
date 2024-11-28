@@ -1343,6 +1343,21 @@
     </svg>
 </div>
 
+<script>
+    // Disable right-click context menu
+    document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+    });
+</script>
+
+<script>
+    // Disable F12, Ctrl+Shift+I and other DevTools shortcuts
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'C'))) {
+            e.preventDefault();
+        }
+    });
+</script>
     <!-- Libs JS -->
 <script src="assets/js/vendors/jquery-3.7.1.min.js"></script>
 <script src="assets/js/vendors/bootstrap.bundle.min.js"></script>
