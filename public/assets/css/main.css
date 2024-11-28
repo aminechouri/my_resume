@@ -2809,6 +2809,29 @@ textarea {
     top: 21px;
     right: 24px;
   }
+  .navbar.navbar-home-2 .navbar-brand span{
+    font-size: 18px !important;
+  }
+  .navbar-brand img{
+    width: 24px;
+  }
+  .hey_me{
+   flex-wrap: wrap;
+  }
+  .title_name{
+    font-size: 35px !important;
+  }
+}
+
+@media(max-width:380px){
+  .dark-light-switcher{
+    display: none !important;
+  }
+  .burger-icon {
+    display: block;
+    top: 10px;
+    right: 24px;
+}
 }
 .offCanvas__info {
   background: var(--tc-neutral-1000) none repeat scroll 0 0;
