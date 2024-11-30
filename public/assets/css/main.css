@@ -2805,11 +2805,23 @@ textarea {
   .stats{
     margin-bottom: 25px;
   }
+  .societe_name{
+    font-size: 14px;
+  }
+  .societe_time{
+    font-size: 12px;
+  }
+  .tasks li{
+    font-size: 14px;
+  }
+  .email_contact h6{
+    font-size: 14px;
+  }
 }
 @media (max-width: 768px) {
   .burger-icon {
     display: block;
-    top: 21px;
+    top: 13px;
     right: 24px;
   }
   .cerif_title{
@@ -2819,6 +2831,9 @@ textarea {
   font-size: 35px !important;
 }
 .typing {
+  font-size: 12px !important;
+}
+.typewriter h1{
   font-size: 12px !important;
 }
 .dark-light-switcher{
@@ -14433,8 +14448,3 @@ strong {
   height: 45px;
 }
 
-.email_contact{
-  line-break: anywhere;
-  text-wrap: auto;
-  width: 76%;
-}
