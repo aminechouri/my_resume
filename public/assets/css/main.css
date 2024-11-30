@@ -2802,6 +2802,9 @@ textarea {
     top: 16px;
     right: 24px;
   }
+  .stats{
+    margin-bottom: 25px;
+  }
 }
 @media (max-width: 768px) {
   .burger-icon {
@@ -2809,6 +2812,18 @@ textarea {
     top: 21px;
     right: 24px;
   }
+  .cerif_title{
+    font-size: 20px;
+  }
+.dev_title {
+  font-size: 35px !important;
+}
+.typing {
+  font-size: 12px !important;
+}
+.dark-light-switcher{
+  display: none !important;
+}
 }
 .offCanvas__info {
   background: var(--tc-neutral-1000) none repeat scroll 0 0;
@@ -14393,4 +14408,10 @@ strong {
 .brand-logo img{
   width: 45px;
   height: 45px;
+}
+
+.email_contact{
+  line-break: anywhere;
+  text-wrap: auto;
+  width: 76%;
 }
